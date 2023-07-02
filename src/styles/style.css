@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* header */
+
+.background{
+    background-color: #1a1328;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 35px;
+}    
+.container .choice{
+    color: white;
+    font-weight: bold;
+}
+span{
+    color: #ea1538;
+    font-weight: bold;
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #ea1538;
+    transition: 0.3s;
+}
+
+.float-right{
+    display: flex;
+    float: right;
+    margin: 10px;
+    
+}
+
+
+/* room sections */
+.background2{
+    width: 100%;
+    background-color: #f1f0ed;
+}
+.container2cake{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 35px;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 500;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */  
+}
+
+/* services */
+
+.services{
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    text-align: center;
+}
+.services-heading{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+/* cake section */
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .image {
+    flex: 1;
+    /* border-radius: 50%; */
+    overflow: hidden;
+    margin-right: 10px; /* Add margin for spacing */
+  }
+  
+  .image:last-child {
+    margin-right: 0; /* Remove margin for the last image */
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+
+/* contact us  */
+
+.contactus1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+.contactus1 h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.contactus1 p{
+    margin-bottom: 5px;
+}
+.contactus2 input{
+    margin-right: 10px;
+    padding: 5px;
+}
+.contactus2 button{
+    background-color: orange;
+    padding: 2px 10px 2px 10px;
+}
+
+.contactus2 button:hover{
+    background-color: #3bc950;
+}
+
+.contactus3{
+    text-align: justify;
+    margin: 15px;
+}
+
+
+
+/* footer section */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .footer1 {
+    /* display: flex; */
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer1 img {
+    width: 100px; /* Set the desired width for the image */
+  }
+  
+  .footer1 p {
+    margin: 0;
+  }
+ .footer_last{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .socialmedia ul{
+    display: flex;
+    gap: 20px;
+ } 
+
+ .main{
+    background-color: whitesmoke;
+    padding: 30px;
+ }
+  
+
+
+/* media query */
+ 
+
+    
+
+@media screen and (max-width: 984px){
+    .container{
+        width: 100%;
+        padding: 30px;
+        margin: 5px;
+        justify-content: space-between;
+    }
+    nav h2{
+        width: auto;
+    }
+    nav ul {
+        width: auto;
+    }
+    nav ul li{
+        margin: 2px;
+        padding: 1.5px;
+        font-size: 0.9rem;
+    }
+    .float-right{
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+}   
+
+@media (max-width: 930px) {
+    .footer {
+      flex-direction: column;
+    }
+  
+    .footer1,
+    div,
+    .footer_last {
+      margin-bottom: 20px;
+    }
+  }
+
+
+@media screen and (max-width: 775px){
+    .container{
+        flex-direction: column;
+    }
+    .float-right{
+        margin: 5px;
+        padding: 0px;
+    }
+    
+    
+    
+    
+    
+       
+}
+
+@media screen and (max-width: 401px){
+    nav ul li{
+        display: block;
+    }
+    nav ul{
+        width: 100%;
+        
+    }
+    .float-right{
+        width: 100%;
+    }
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
