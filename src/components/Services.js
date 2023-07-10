@@ -1,5 +1,5 @@
 import React from "react";
-import { GiKnifeFork } from "react-icons/gi";
+import { BsChatSquareQuoteFill } from "react-icons/bs";
 import { ImSpoonKnife } from "react-icons/im";
 import { TbTruckDelivery } from "react-icons/tb";
 
@@ -13,7 +13,7 @@ const Services = () => {
           Services
         </h1>
         <div className="services-heading">
-          <h1>Why Choose Our Favourite Food</h1>
+          <h1>Why Choose Our Premium College</h1>
         </div>
 
         <section class="text-gray-600 body-font">
@@ -27,17 +27,17 @@ const Services = () => {
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    class="w-10 h-10"
+                    className="w-10 h-10 animate-bounce"
                     viewBox="0 0 24 24"
                   >
-                    <GiKnifeFork />
+                    <BsChatSquareQuoteFill />
                   </svg>
                 </div>
                 <div class="flex-grow">
                   <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
-                    Qualityfull Food
+                    Premium Faculty
                   </h2>
-                  <p class="leading-relaxed text-base">
+                  <p class="leading-relaxed text-base font-sans hover:font-serif">
                     Blue bottle crucifix vinyl post-ironic four dollar toast
                     vegan taxidermy. Gastropub indxgo juice poutine, ramps
                     microdosing banh mi pug VHS try-hard.
@@ -52,7 +52,7 @@ const Services = () => {
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    class="w-10 h-10"
+                    class="w-10 h-10 animate-bounce"
                     viewBox="0 0 24 24"
                   >
                     <ImSpoonKnife />
@@ -62,7 +62,7 @@ const Services = () => {
                   <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
                     Healthy Food
                   </h2>
-                  <p class="leading-relaxed text-base">
+                  <p class="leading-relaxed text-base font-sans hover:font-serif">
                     Blue bottle crucifix vinyl post-ironic four dollar toast
                     vegan taxidermy. Gastropub indxgo juice poutine, ramps
                     microdosing banh mi pug VHS try-hard.
@@ -77,17 +77,17 @@ const Services = () => {
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    class="w-10 h-10"
-                    viewBox="0 0 24 24"
+                    class="w-10 h-10 animate-bounce"
+                    viewBox="0 0 20 20"
                   >
                     <TbTruckDelivery />
                   </svg>
                 </div>
                 <div class="flex-grow">
                   <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
-                    Fast Delivery
+                    Bus Facility
                   </h2>
-                  <p class="leading-relaxed text-base">
+                  <p class="leading-relaxed text-base font-sans hover:font-serif">
                     Blue bottle crucifix vinyl post-ironic four dollar toast
                     vegan taxidermy. Gastropub indxgo juice poutine, ramps
                     microdosing banh mi pug VHS try-hard.

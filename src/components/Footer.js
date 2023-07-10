@@ -11,13 +11,13 @@ const Footer = () => {
         <div className="main">
         <footer className="footer">
           <div className="footer1">
-            <img src="./images/images.jpg" alt="" />
+            <img src="./images/logo.png" alt="" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolorum!</p>
           </div>
 
           <div>
             <ul>
-              <h1>Tastebite</h1><br />
+              <h1>College</h1><br />
               <li>About us</li>
               <li>Carrer</li>
               <li>Contact us</li>
@@ -45,7 +45,7 @@ const Footer = () => {
         </footer>
         <hr style={{backgroundColor: 'red'}}/>
         <div className="footer_last">
-          <p>@Copyright - TasteBite</p>
+          <p>@Copyright - College  All Rights Reserved</p>
           <div className="socialmedia">
             <ul>
               <li><FaFacebookSquare/></li>
